@@ -1,0 +1,89 @@
+.header{
+    background: url("/image/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.border{
+    color: white!important;
+    margin-top: 10%!important;
+    width: 60%!important;
+}
+
+.border h1{
+    width: auto;
+    font-size: 70px!important;
+}
+
+.whitetext{
+    position: absolute!important;
+    left: 50%!important;
+    top: 165%!important;
+    background-color: white!important;
+    justify-content: space-between!important;
+}
+
+.position{
+    color: white!important;
+    font-size: 40px;
+    width: 15%;
+    position: absolute;
+    top: 290%;
+}
+
+.positionc{
+    color: white !important;
+    font-size: 40px;
+    width: 10%;
+    position: absolute;
+    top: 290%;
+}
+
+.position2 {
+    color: white !important;
+    font-size: 40px;
+    width: 20%;
+    position: absolute;
+    top: 370%;    
+}
+
+.footer{
+    background-color: black!important;
+}
+
+@media (max-width:500px){
+    .border {
+        width: 100%!important;
+        line-height: 20px;
+    }
+
+    .border h1{
+        font-size: 60px!important;
+    }
+
+    .midpic{
+        flex-direction: column!important;
+    }
+
+    .midpic .image img{
+        width: 100%!important;
+    }
+
+    .midpic .whitetext{
+        position:relative!important;
+        left: 0%!important;
+        top: 132%!important;
+        text-align: center;
+        width: 100%; 
+    }
+
+    .row{
+        mask-image: 24%!important ;
+    }
+
+
+
+
+
+
+}
