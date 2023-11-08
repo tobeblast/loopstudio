@@ -1,5 +1,4 @@
-.header{
-    /* background: url("/image/desktop/image-hero.jpg"); */
+.header{    
     background-image: url("../image/desktop/image-hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,12 +15,30 @@
     font-size: 70px!important;
 }
 
+
+.creation{
+display: flex; 
+justify-content: space-between;
+}
+
+.creation .btn{
+    width:15%; 
+    padding: 0px;
+    background-color: white;
+    border: solid 2px;
+}
+
 .whitetext{
     position: absolute!important;
     left: 50%!important;
-    top: 165%!important;
+    top: 40%!important;
+    padding-left: 80px!important;
     background-color: white!important;
     justify-content: space-between!important;
+}
+
+.card-mobile{
+    display:none;    
 }
 
 .position{
@@ -29,7 +46,7 @@
     font-size: 40px;
     width: 15%;
     position: absolute;
-    top: 290%;
+    top: 30%;
 }
 
 .positionc{
@@ -37,7 +54,7 @@
     font-size: 40px;
     width: 10%;
     position: absolute;
-    top: 290%;
+    top: 30%;
 }
 
 .position2 {
@@ -45,14 +62,29 @@
     font-size: 40px;
     width: 20%;
     position: absolute;
-    top: 370%;    
+    top: 80%;    
+}
+
+.icons{
+
 }
 
 .footer{
-    background-color: black!important;
+    /* background-color: black!important; */
 }
 
 @media (max-width:500px){
+    .creation {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .creation .btn{
+        width: 100%;
+        background-color: blue;
+        padding: 2%;
+    }
+             
     .border {
         width: 100%!important;
         line-height: 20px;
@@ -71,15 +103,133 @@
     }
 
     .midpic .whitetext{
-        position:relative!important;
+        position:absolute!important;
         left: 0%!important;
-        top: 132%!important;
+        top: 24%!important;
         text-align: center;
         width: 100%; 
     }
 
+    .midpic .whitetext p{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .creation{
+        margin-top: 80%;
+    }
+
     .row{
-        mask-image: 24%!important ;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .card-mobile{
+        flex-direction: column;
+        display: flex;
+        margin-top: 20%;
+    }
+
+    .card{
+        display: none;
+    }
+
+    .deep {
+        color: rgb(240, 236, 236);
+        position: absolute;
+        top: 43%;
+        font-size: 35px;
+        width: 20%;
+    }
+
+    .night {
+        color: rgb(240, 236, 236);
+        position: absolute;
+        top: 48%;
+        font-size: 35px;
+        width: 20%;
+    }
+
+    .soccer {
+        color: rgb(240, 236, 236);
+        position: absolute;
+        top: 53.5%;
+        font-size: 35px;
+        width: 30%;
+    }
+
+    .grid {
+        color: rgb(240, 236, 236);
+        position: absolute;
+        top: 58.5%;
+        font-size: 35px;
+        width: 20%;
+    }
+
+    .above {
+       color: rgb(240, 236, 236);
+       position: absolute;
+       top: 64.5%;
+       font-size: 35px;
+       width: 50%;
+    }
+
+    .pocket {
+       color: rgb(240, 236, 236);
+       position: absolute;
+       top: 69.5%;
+       font-size: 35px;
+       width: 50%;
+    }
+
+    .curiosity {
+        color: rgb(240, 236, 236);
+        position: absolute;
+        top: 75%;
+        font-size: 35px;
+        width: 40%;
+    }
+
+    .fisheye{
+        color: rgb(240, 236, 236);
+        position: absolute;
+        top: 80%;
+        font-size: 35px;
+        width: 50%;
+    }
+
+    .footer {
+        display: flex !important;
+        text-align: center;
+    }
+
+    .icons{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+    }
+
+    .p-tags{
+        flex-direction: column;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .last-icon{
+        flex-direction: column;
+        margin-top: 110%;
+        margin-left: -100%;
+    }
+
+    .icon-image{
+        margin-left: 10% !important;
+    }
+
+    .mt-4 p{
+        margin-left:-20% ;
     }
 
 
