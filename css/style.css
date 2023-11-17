@@ -4,15 +4,8 @@
     background-size: cover;
 }
 
-.border{
-    color: white!important;
-    margin-top: 10%!important;
-    width: 60%!important;
-}
-
-.border h1{
-    width: auto;
-    font-size: 70px!important;
+.sp{
+    font-size: 70px;
 }
 
 
@@ -84,15 +77,16 @@ justify-content: space-between;
         background-color: blue;
         padding: 2%;
     }
-             
-    .border {
+
+    .bo{
         width: 100%!important;
-        line-height: 20px;
     }
 
-    .border h1{
-        font-size: 60px!important;
+    .sp{
+        font-size: 40px!important;
     }
+             
+   
 
     .midpic{
         flex-direction: column!important;
@@ -105,18 +99,30 @@ justify-content: space-between;
     .midpic .whitetext{
         position:absolute!important;
         left: 0%!important;
-        top: 24%!important;
-        text-align: center;
+        top: 27%!important;
         width: 100%; 
+        height: 3%;
+    }
+
+    .midpic .whitetext h1{
+        font-size: 2rem!important;
+        line-height: 35px!important;
     }
 
     .midpic .whitetext p{
         width: 100%;
-        margin-top: 30px;
+        text-align: center;
+        font-size: 1rem;
+    
     }
 
     .creation{
-        margin-top: 80%;
+        margin-top: 140%;
+    }
+
+    .creation p{
+        text-align: center;
+        font-size: 2.5rem!important;
     }
 
     .row{
@@ -138,7 +144,7 @@ justify-content: space-between;
     .deep {
         color: rgb(240, 236, 236);
         position: absolute;
-        top: 43%;
+        top: 46.5%;
         font-size: 35px;
         width: 20%;
     }
@@ -146,7 +152,7 @@ justify-content: space-between;
     .night {
         color: rgb(240, 236, 236);
         position: absolute;
-        top: 48%;
+        top: 51%;
         font-size: 35px;
         width: 20%;
     }
@@ -154,15 +160,15 @@ justify-content: space-between;
     .soccer {
         color: rgb(240, 236, 236);
         position: absolute;
-        top: 53.5%;
+        top: 55.5%;
         font-size: 35px;
-        width: 30%;
+        width: 55%;
     }
 
     .grid {
         color: rgb(240, 236, 236);
         position: absolute;
-        top: 58.5%;
+        top: 60%;
         font-size: 35px;
         width: 20%;
     }
@@ -170,7 +176,7 @@ justify-content: space-between;
     .above {
        color: rgb(240, 236, 236);
        position: absolute;
-       top: 64.5%;
+       top: 65.2%;
        font-size: 35px;
        width: 50%;
     }
@@ -178,7 +184,7 @@ justify-content: space-between;
     .pocket {
        color: rgb(240, 236, 236);
        position: absolute;
-       top: 69.5%;
+       top: 69.8%;
        font-size: 35px;
        width: 50%;
     }
@@ -186,7 +192,7 @@ justify-content: space-between;
     .curiosity {
         color: rgb(240, 236, 236);
         position: absolute;
-        top: 75%;
+        top: 74%;
         font-size: 35px;
         width: 40%;
     }
@@ -194,7 +200,7 @@ justify-content: space-between;
     .fisheye{
         color: rgb(240, 236, 236);
         position: absolute;
-        top: 80%;
+        top: 78.5%;
         font-size: 35px;
         width: 50%;
     }
@@ -207,7 +213,7 @@ justify-content: space-between;
     .icons{
         display: flex;
         flex-direction: column;
-        margin-left: 20%;
+        margin-left: 10%;
     }
 
     .p-tags{
@@ -220,8 +226,8 @@ justify-content: space-between;
 
     .last-icon{
         flex-direction: column;
-        margin-top: 110%;
-        margin-left: -100%;
+        margin-top: 160%;
+        margin-left: -70%;
     }
 
     .icon-image{
@@ -229,7 +235,8 @@ justify-content: space-between;
     }
 
     .mt-4 p{
-        margin-left:-20% ;
+        margin-left:-33% ;
+        width: 160%;
     }
 
 
