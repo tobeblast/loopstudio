@@ -8,13 +8,17 @@
     font-size: 70px;
 }
 
+.content {
+    position: relative;
+}
+
 
 .creation{
 display: flex; 
 justify-content: space-between;
 }
 
-.creation .btn{
+ .btn{
     width:15%; 
     padding: 0px;
     background-color: white;
@@ -66,13 +70,19 @@ justify-content: space-between;
     /* background-color: black!important; */
 }
 
+.midpic-desk {
+    display: block;
+}
+
+
+
 @media (max-width:500px){
     .creation {
         flex-direction: column;
         row-gap: 10px;
     }
 
-    .creation .btn{
+    .btn{
         width: 100%;
         background-color: blue;
         padding: 2%;
@@ -80,14 +90,22 @@ justify-content: space-between;
 
     .bo{
         width: 100%!important;
+        font-size: 2rem;
     }
 
     .sp{
         font-size: 40px!important;
     }
              
-   
+        .midpic-desk {
+            display: none;
+        }
 
+                .midpic-mob {
+                    display: block;
+                }
+   
+/* 
     .midpic{
         flex-direction: column!important;
     }
@@ -105,8 +123,9 @@ justify-content: space-between;
     }
 
     .midpic .whitetext h1{
-        font-size: 2rem!important;
+        font-size: 1.5rem!important;
         line-height: 35px!important;
+        width: 100%!important;
     }
 
     .midpic .whitetext p{
@@ -114,10 +133,10 @@ justify-content: space-between;
         text-align: center;
         font-size: 1rem;
     
-    }
+    } */
 
     .creation{
-        margin-top: 140%;
+        margin-top: 5%;
     }
 
     .creation p{
@@ -134,7 +153,7 @@ justify-content: space-between;
     .card-mobile{
         flex-direction: column;
         display: flex;
-        margin-top: 20%;
+        margin-top: 10%;
     }
 
     .card{
@@ -144,67 +163,12 @@ justify-content: space-between;
     .deep {
         color: rgb(240, 236, 236);
         position: absolute;
-        top: 46.5%;
-        font-size: 35px;
-        width: 20%;
-    }
-
-    .night {
-        color: rgb(240, 236, 236);
-        position: absolute;
-        top: 51%;
-        font-size: 35px;
-        width: 20%;
-    }
-
-    .soccer {
-        color: rgb(240, 236, 236);
-        position: absolute;
-        top: 55.5%;
-        font-size: 35px;
-        width: 55%;
-    }
-
-    .grid {
-        color: rgb(240, 236, 236);
-        position: absolute;
-        top: 60%;
-        font-size: 35px;
-        width: 20%;
-    }
-
-    .above {
-       color: rgb(240, 236, 236);
-       position: absolute;
-       top: 65.2%;
-       font-size: 35px;
-       width: 50%;
-    }
-
-    .pocket {
-       color: rgb(240, 236, 236);
-       position: absolute;
-       top: 69.8%;
-       font-size: 35px;
-       width: 50%;
-    }
-
-    .curiosity {
-        color: rgb(240, 236, 236);
-        position: absolute;
-        top: 74%;
-        font-size: 35px;
+        top: 6.5%;
+        font-size: 25px;
         width: 40%;
     }
 
-    .fisheye{
-        color: rgb(240, 236, 236);
-        position: absolute;
-        top: 78.5%;
-        font-size: 35px;
-        width: 50%;
-    }
-
+   
     .footer {
         display: flex !important;
         text-align: center;
@@ -213,12 +177,10 @@ justify-content: space-between;
     .icons{
         display: flex;
         flex-direction: column;
-        margin-left: 10%;
+    
     }
 
-    .p-tags{
-        flex-direction: column;
-    }
+  
 
     img{
         width: 100%;
@@ -226,22 +188,8 @@ justify-content: space-between;
 
     .last-icon{
         flex-direction: column;
-        margin-top: 160%;
-        margin-left: -70%;
+      
     }
 
-    .icon-image{
-        margin-left: 10% !important;
-    }
-
-    .mt-4 p{
-        margin-left:-33% ;
-        width: 160%;
-    }
-
-
-
-
-
-
+   
 }
